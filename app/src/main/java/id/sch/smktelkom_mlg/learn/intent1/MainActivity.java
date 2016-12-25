@@ -11,7 +11,7 @@ public class MainActivity extends AppCompatActivity {
 
     setOnClickListener(new View.OnClickListener() {
         @Override
-        publicvoid onClick (View v)
+        public void onClick (View v)
         {
             startActivity(new Intent(MainActivity.this, HasilActivity.class));
         }
